@@ -9,6 +9,7 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 import CountryModal from "./CountryModal";
+
 function Test() {
   return (
     <>
@@ -29,9 +30,10 @@ function Test() {
             </HStack>
             <HStack spacing={"35px"}>
               <Image
-                boxSize="9%"
-                src="https://static.lystit.com/static/n/pr_campaigns/year_in_fashion_2020/images/logo.a9c5dfdd1a8b.png"
+                boxSize="8%"
+                src="https://i.ibb.co/wgT9wpn/Untitled-design.png"
                 alt="LYST-LOGO"
+                
               />
               <Stack spacing={3}>
                 <Text fontSize="18px">WOMEN</Text>
@@ -50,6 +52,7 @@ function Test() {
           </Stack>
         </div>
       </div>
+      
     </>
   );
 }
