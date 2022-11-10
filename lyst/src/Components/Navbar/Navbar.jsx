@@ -47,6 +47,7 @@ function Test() {
                 borderRadius={"none"}
                 marginLeft={"25%"}
                 h="43px"
+                focusBorderColor='black'
               />
             </HStack>
           </Stack>
