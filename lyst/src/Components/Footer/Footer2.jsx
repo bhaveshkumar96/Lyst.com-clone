@@ -3,7 +3,7 @@ import { HStack, Stack, Text } from "@chakra-ui/react";
 function Footer2() {
   return (
     <>
-      <HStack border={"2px"}>
+      <HStack border={"1px"}>
         <Stack>
             <Text fontSize={"25px"}>WOMEN'S CLOTHING</Text>
         <Text>Hats</Text>
