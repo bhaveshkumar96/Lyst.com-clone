@@ -1,3 +1,4 @@
+
 import {
   Input,
   Stack,
@@ -6,16 +7,19 @@ import {
   Text,
   HStack,
   Button,
+  Flex,
+  Grid,
 } from "@chakra-ui/react";
 import React from "react";
 
 function Footer() {
   return (
     <>
-      <h1>Footer</h1>
+    <hr  />
       
-      <HStack>
-        <Stack width={"50%"} spacing="2">
+      <HStack border={"2px"} h="fit-content" >
+      
+        <Stack width={"50%"} spacing="2" >
           <Image
             width={"20%"}
             src="https://roi4cio.com/uploads/roi/company/Trustpilot__logo_.PNG"
@@ -49,11 +53,13 @@ function Footer() {
             width={"30%"}
             src="https://www.freepnglogos.com/uploads/app-store-logo-png/google-play-and-apple-app-store-logos-22.png"
           />
-          <Text>Learn about the Lyst app for iPhone, iPad and Android.</Text>
+          <Text fontSize={"14px"} >Learn about the Lyst app for iPhone, iPad and Android.</Text>
           <Text>© 2022 Lyst</Text>
         </Stack>
-        <Stack spacing={1}>
-          <Text as="b" fontSize={"20px"}>
+    
+        
+        <Stack spacing={1} justifyItems={"flex-start"} >
+          <Text fontSize={"20px"} fontFamily="Helvetica">
             INTERNATIONAL
           </Text>
           <Text fontSize={"14px"}>Lyst - AU</Text>
@@ -69,8 +75,9 @@ function Footer() {
           <Text fontSize={"14px"}>Lyst - België</Text>
           <Text fontSize={"14px"}>Lyst - Nederland</Text>
         </Stack>
+       
         <Stack spacing={1}>
-          <Text as="b" fontSize={"20px"}>
+          <Text fontSize={"20px"} fontFamily="Helvetica">
             HELP AND INFO
           </Text>
           <Text fontSize={"14px"}>Help center</Text>
