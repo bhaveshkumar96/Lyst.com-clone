@@ -17,11 +17,11 @@ function Footer() {
     <>
     <hr  />
       
-      <HStack border={"1px"} h="fit-content" >
+      <HStack border={"1px"} h="fit-content" textAlign={"left"} gap="5">
       
-        <Stack width={"50%"} spacing="2" >
+        <Stack width={"50%"} spacing="2" ml={"10%"}>
           <Image
-            width={"20%"}
+            width={"15%"}
             src="https://roi4cio.com/uploads/roi/company/Trustpilot__logo_.PNG"
           />
           <Image
@@ -62,18 +62,18 @@ function Footer() {
           <Text fontSize={"20px"} fontFamily="Helvetica">
             INTERNATIONAL
           </Text>
-          <Text fontSize={"14px"}>Lyst - AU</Text>
-          <Text fontSize={"14px"}>Lyst - CA</Text>
-          <Text fontSize={"14px"}>Lyst - UK</Text>
-          <Text fontSize={"14px"}>Lyst - Österreich</Text>
-          <Text fontSize={"14px"}>Lyst - Schweiz</Text>
-          <Text fontSize={"14px"}>Lyst - Deutschland</Text>
-          <Text fontSize={"14px"}>Lyst - España</Text>
-          <Text fontSize={"14px"}>Lyst - France</Text>
-          <Text fontSize={"14px"}>Lyst - Italia</Text>
-          <Text fontSize={"14px"}>Lyst - 日本</Text>
-          <Text fontSize={"14px"}>Lyst - België</Text>
-          <Text fontSize={"14px"}>Lyst - Nederland</Text>
+          <Text cursor={"pointer"} fontSize={"14px"}>Lyst - AU</Text>
+          <Text cursor={"pointer"} fontSize={"14px"}>Lyst - CA</Text>
+          <Text cursor={"pointer"} fontSize={"14px"} >Lyst - UK</Text>
+          <Text cursor={"pointer"} fontSize={"14px"}>Lyst - Österreich</Text>
+          <Text cursor={"pointer"} fontSize={"14px"}>Lyst - Schweiz</Text>
+          <Text cursor={"pointer"} fontSize={"14px"}>Lyst - Deutschland</Text>
+          <Text cursor={"pointer"} fontSize={"14px"}>Lyst - España</Text>
+          <Text cursor={"pointer"} fontSize={"14px"}>Lyst - France</Text>
+          <Text cursor={"pointer"} fontSize={"14px"}>Lyst - Italia</Text>
+          <Text cursor={"pointer"} fontSize={"14px"}>Lyst - 日本</Text>
+          <Text cursor={"pointer"} fontSize={"14px"}>Lyst - België</Text>
+          <Text cursor={"pointer"} fontSize={"14px"}>Lyst - Nederland</Text>
         </Stack>
        
         <Stack spacing={1}>
@@ -93,10 +93,10 @@ function Footer() {
           <Text fontSize={"14px"}>Terms & conditions</Text>
           <Text fontSize={"14px"}>Privacy & cookie policy</Text>
           <Text fontSize={"14px"}>Intellectual property</Text>
-          <Text fontSize={"14px"}>Categories</Text>
-          <Text fontSize={"14px"}>Become a partner</Text>
+          {/* <Text fontSize={"14px"}>Categories</Text> */}
+          {/* <Text fontSize={"14px"}>Become a partner</Text>
           <Text fontSize={"14px"}>Lyst Insights</Text>
-          <Text fontSize={"14px"}>Lyst News</Text>
+          <Text fontSize={"14px"}>Lyst News</Text> */}
         </Stack>
       </HStack>
     </>
