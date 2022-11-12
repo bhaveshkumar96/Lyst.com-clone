@@ -1,4 +1,5 @@
 import { HStack, Stack, Image, Text, Button,Input } from "@chakra-ui/react";
+import MainSlider from "../Crousel/MainSlider";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
 
@@ -6,6 +7,7 @@ function LoginPage() {
   return (
     <>
       <Navbar />
+      {/* <MainSlider/> */}
       <HStack gap={"20%"} >
 
         <Stack width={"35%"} ml="100px">

@@ -5,6 +5,7 @@ import {
   Text,
   HStack,
   Button,
+  Box,
 } from "@chakra-ui/react";
 import React from "react";
 import CountryModal from "./CountryModal";
@@ -16,7 +17,7 @@ function Test() {
         <div>
           <Stack>
             <HStack gap={5} marginLeft={"80%"}>
-              <CountryModal/>
+              <CountryModal />
               <Button
                 colorScheme="teal"
                 variant="solid"
@@ -24,16 +25,20 @@ function Test() {
                 h={"30px"}
                 borderRadius="none"
               >
-                <Text>Sign up or login</Text>
+                <Text>
+                  {" "}
+                  <a href="/login">Sign up or login</a>{" "}
+                </Text>
               </Button>
             </HStack>
             <HStack spacing={"35px"}>
-              <Image
-                boxSize="8%"
-                src="https://i.ibb.co/wgT9wpn/Untitled-design.png"
-                alt="LYST-LOGO"
-                
-              />
+              <a href="/">
+                <Image
+                  boxSize="50%"
+                  src="https://i.ibb.co/wgT9wpn/Untitled-design.png"
+                  alt="LYST-LOGO"
+                />
+              </a>{" "}
               <Stack spacing={3}>
                 <Text fontSize="18px">WOMEN</Text>
               </Stack>
@@ -46,13 +51,38 @@ function Test() {
                 borderRadius={"none"}
                 marginLeft={"25%"}
                 h="43px"
-                focusBorderColor='black'
+                focusBorderColor="black"
               />
             </HStack>
           </Stack>
         </div>
       </div>
-      
+      <HStack border={"1px"}>
+        <Stack textAlign={"left"} ml="80px" >
+          <Text fontSize={"2xl"}>BEST OF BOOTS</Text>
+          <Image
+            w={"80%"}
+            src="https://cdna.lystit.com/cms/774684bb_f807_4fa2_b802_507eb6c226a0_92a34933f0.png"
+          />
+        </Stack>
+        <Stack textAlign={"left"}>
+          <Text fontSize={"2xl"}>BEST OF BOOTS</Text>
+          <Image
+            w={"80%"}
+            src="https://cdna.lystit.com/cms/774684bb_f807_4fa2_b802_507eb6c226a0_92a34933f0.png"
+          />
+        </Stack>
+        <Stack textAlign={"left"}>
+          <Text fontSize={"2xl"}>BEST OF BOOTS</Text>
+          <Image
+            w={"80%"}
+            src="https://cdna.lystit.com/cms/774684bb_f807_4fa2_b802_507eb6c226a0_92a34933f0.png"
+          />
+        </Stack>
+      </HStack>
+      <div>
+        <Image src="https://i.ibb.co/B6Sc8ZZ/mainPage.png" />
+      </div>
     </>
   );
 }
