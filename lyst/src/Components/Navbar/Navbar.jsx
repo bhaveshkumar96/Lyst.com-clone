@@ -1,7 +1,6 @@
 import {
   Input,
   Stack,
-  Icon,
   Image,
   Text,
   HStack,
