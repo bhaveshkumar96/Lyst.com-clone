@@ -10,8 +10,6 @@ function LandingPage() {
       <Footer3/>
       <Footer2/>
       <Footer/>
-      
-
     </>
   );
 }
