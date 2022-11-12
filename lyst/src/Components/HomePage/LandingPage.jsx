@@ -6,7 +6,6 @@ function LandingPage() {
   return (
     <>
       <h1>Landing Page</h1>
-      <LoginPage/>
       <Footer3/>
       <Footer2/>
       <Footer/>
