@@ -57,32 +57,8 @@ function Test() {
           </Stack>
         </div>
       </div>
-      <HStack border={"1px"}>
-        <Stack textAlign={"left"} ml="80px" >
-          <Text fontSize={"2xl"}>BEST OF BOOTS</Text>
-          <Image
-            w={"80%"}
-            src="https://cdna.lystit.com/cms/774684bb_f807_4fa2_b802_507eb6c226a0_92a34933f0.png"
-          />
-        </Stack>
-        <Stack textAlign={"left"}>
-          <Text fontSize={"2xl"}>BEST OF BOOTS</Text>
-          <Image
-            w={"80%"}
-            src="https://cdna.lystit.com/cms/774684bb_f807_4fa2_b802_507eb6c226a0_92a34933f0.png"
-          />
-        </Stack>
-        <Stack textAlign={"left"}>
-          <Text fontSize={"2xl"}>BEST OF BOOTS</Text>
-          <Image
-            w={"80%"}
-            src="https://cdna.lystit.com/cms/774684bb_f807_4fa2_b802_507eb6c226a0_92a34933f0.png"
-          />
-        </Stack>
-      </HStack>
-      <div>
-        <Image src="https://i.ibb.co/B6Sc8ZZ/mainPage.png" />
-      </div>
+      
+     
     </>
   );
 }

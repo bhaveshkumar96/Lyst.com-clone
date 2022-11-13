@@ -13,7 +13,7 @@ function LoginPage() {
         <Stack width={"35%"} ml="100px">
            <Text fontSize={"4xl"} textAlign="centre" fontFamily={"cursive"}>The only fashion site you need</Text>
         <Input variant='flushed' placeholder='Enter Your Email to Login' textAlign={"center"} fontSize="xl"/>
-            <Button bg={"black"} borderRadius={"none"} colorScheme="white" >Continue</Button>
+            <Button bg={"black"} borderRadius={"none"} colorScheme="white" > <a href="/">Continue</a>  </Button>
             <hr />
             <br />
           <Button bg={"white"} border="1px"  borderRadius={"none"} columnGap="10">

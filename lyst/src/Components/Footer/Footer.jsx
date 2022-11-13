@@ -17,7 +17,7 @@ function Footer() {
     <>
     <hr  />
       
-      <HStack border={"1px"} h="fit-content" textAlign={"left"} gap="5">
+      <HStack border={"1px"} h="400px" textAlign={"left"} gap="5">
       
         <Stack width={"50%"} spacing="2" ml={"10%"}>
           <Image
